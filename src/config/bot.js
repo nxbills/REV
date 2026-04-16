@@ -109,7 +109,7 @@ export const botConfig = {
 
       // Discord-style palette shortcuts.
       blurple: "#5865F2",
-      green: "#57F287",
+      green: "#021B79",
       yellow: "#FEE75C",
       fuchsia: "#EB459E",
       red: "#ED4245",
@@ -141,7 +141,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "REV Bot",
       // Footer icon URL (null = no icon).
       icon: null,
     },
