@@ -1,4 +1,4 @@
-import { logger } from '../utils/logger.js';
+/import { logger } from '../utils/logger.js';
 
 
 export const botConfig = {
@@ -30,7 +30,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Broadcasting the revolution.",
         // Activity type number (0 = Playing).
         type: 0, 
       },
@@ -93,14 +93,14 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
-      secondary: "#2F3136", 
+      primary: "#021B79", 
+      secondary: "#021B79", 
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287", 
       error: "#ED4245", 
       warning: "#FEE75C", 
-      info: "#3498DB", 
+      info: "#021B79", 
 
       // Neutral utility colors.
       light: "#FFFFFF",
@@ -117,7 +117,7 @@ export const botConfig = {
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
+        active: "#021B79",
         ended: "#ED4245",
       },
       ticket: {
@@ -127,8 +127,8 @@ export const botConfig = {
         pending: "#99AAB5",
       },
       economy: "#F1C40F",
-      birthday: "#E91E63",
-      moderation: "#9B59B6",
+      birthday: "#021B79",
+      moderation: "#021B79",
 
       // Ticket priority color mapping.
       priority: {
@@ -141,7 +141,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "REV Bot",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -308,7 +308,7 @@ export const botConfig = {
       defaultCriteria: "none",
 
       // Days used when `defaultCriteria` is `account_age`.
-      defaultAccountAgeDays: 7,
+      defaultAccountAgeDays: 1,
 
       // Member count threshold used when `defaultCriteria` is `server_size`.
       // Example: 1000 means auto-verify if server has fewer than 1000 members.
